@@ -1,11 +1,11 @@
 streamlit
+openai==1.16.2
 langchain==0.1.14
-openai
+langchain-community==0.0.28
 chromadb==0.4.22
+pypdf
 python-dotenv
 PyPDF2
-pypdf
-langchain-community
 protobuf==4.23.4
 pydantic==1.10.13
-pydantic-core==2.16.3  # Needed to avoid validator error
+pydantic-core==2.16.3
