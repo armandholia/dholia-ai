@@ -8,16 +8,12 @@ persist_dir = "db"
 
 def process_files(files):
     documents = []
+    os.makedirs("data", exist_ok=True)
+
     for file in files:
-       import os
-
-# Create the 'data' directory if it doesn't exist
-os.makedirs("data", exist_ok=True)
-
-path = os.path.join("data", file.name)
-with open(path, "wb") as f:
-    f.write(file.getbuffer())
-
+        path = os.path.join("data", file.name)
+        with open(path, "wb") as f:
+            f.write(file.getbuffer())
 
         if file.name.endswith(".pdf"):
             loader = PyPDFLoader(path)
