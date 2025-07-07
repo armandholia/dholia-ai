@@ -2,6 +2,7 @@ import streamlit as st
 from memory_manager import process_files
 from chat_engine import get_response
 
+
 st.set_page_config(page_title="Dholia — Your Second Brain")
 st.title("🧠 Dholia: Talk to Your Memory")
 
