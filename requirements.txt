@@ -7,3 +7,4 @@ PyPDF2
 pypdf
 langchain-community
 protobuf==4.23.4
+pydantic==1.10.13
