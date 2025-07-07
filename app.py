@@ -1,3 +1,4 @@
+os.environ["LANGCHAIN_CALLBACKS_DISABLED"] = "true"
 import streamlit as st
 from memory_manager import process_files
 from chat_engine import get_response

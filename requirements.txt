@@ -1,8 +1,9 @@
 streamlit
 langchain
 openai
-chromadb
+chromadb==0.4.22
 python-dotenv
 PyPDF2
-langchain-community
 pypdf
+langchain-community
+protobuf==4.23.4
